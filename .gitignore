@@ -1,0 +1,23 @@
+jz/
+
+envs/
+.venv/
+
+# training outputs (scripts/train_whereopd*.sh)
+checkpoints/
+rollouts/
+outputs/
+tensorboard_log/
+logs/
+wandb/
+
+# datasets built in place by whereopd_data/build_dataset.py (default --root)
+whereopd_data/whereopd_count_*/
+
+# python build / cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+

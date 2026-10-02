@@ -1,0 +1,8 @@
+# benchmark data (built by prepare_data.py, or linked from an existing copy)
+*_images/
+*_images
+*.json
+# outputs
+model_answer/
+judge/
+results/
