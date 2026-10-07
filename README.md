@@ -15,9 +15,9 @@ Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic 
 <a href="https://arxiv.org/abs/2610.02117"><img
 src="https://img.shields.io/badge/arXiv-Where--OPD-b31b1b.svg" height="25"></a>
 <a href="https://huggingface.co/SophiaSirko/WhereOPD-Qwen3.5-4B"><img
-src="https://img.shields.io/badge/🤗%20Model-Qwen3.5--4B-yellow.svg" height="25"></a>
+src="https://img.shields.io/badge/🤗%20Model-WhereOPD--Qwen3.5--4B-white.svg" height="25"></a>
 <a href="https://huggingface.co/SophiaSirko/WhereOPD-Qwen3.5-9B"><img
-src="https://img.shields.io/badge/🤗%20Model-Qwen3.5--9B-yellow.svg" height="25"></a>
+src="https://img.shields.io/badge/🤗%20Model-WhereOPD--Qwen3.5--9B-white.svg" height="25"></a>
 
 
 <br><br>
