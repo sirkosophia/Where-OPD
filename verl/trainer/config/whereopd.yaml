@@ -1,0 +1,20 @@
+# WhereOPD training config: the upstream vopd config plus the WhereOPD teacher.
+# The teacher sees the student's own prompt followed by the scene's object-location
+# hint (extra_info.where_hint), inserted into actor.yaml's default answer_hint_template
+# ("Here is a reference solution to this problem: <hint> After understanding the
+# reference solution, please try to solve this problem using your own approach
+# below:"); it is frozen at the initial weights (teacher_update_rate 0.0).
+defaults:
+  - vopd
+  - _self_
+
+actor_rollout_ref:
+  actor:
+    policy_loss:
+      loss_mode: vopd
+    self_distillation:
+      teacher_always_on: True
+      teacher_prompt_mode: where_hint
+      teacher_model_source: legacy
+      teacher_regularization: ema
+      teacher_update_rate: 0.0
